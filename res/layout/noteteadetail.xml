@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackgroung"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/upbackground" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_details_gohome" />
+
+        <TextView
+            android:id="@+id/ttextview_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="留言"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+<!--     <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#CCCCCC" /> -->
+
+    <TextView
+        android:id="@+id/notedate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="15dip"
+        android:text="留言:"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:background="@drawable/shape_pink"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/notecontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="留言内容"
+                    android:textColor="#000000" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/myreply"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:text="我的回复:"
+        android:textColor="#fff"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/notereply"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:layout_marginBottom="8dip"
+        android:background="@drawable/shape_pink"
+        android:gravity="top"
+        android:hint="请输入留言回复..."
+        android:padding="5dip" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/savereply"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginRight="15dip"
+        android:gravity="right"
+        android:text="回复"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+</LinearLayout>

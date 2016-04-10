@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackgroung"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/upbackground" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_details_gohome" />
+
+        <TextView
+            android:id="@+id/ttextview_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我的课程"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周一"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周二"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周三"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周四"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周五"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周六"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="周日"
+            android:textColor="#333399" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="第1 2节"
+            android:textColor="#333399" />
+
+        <TextView
+            android:id="@+id/class11"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class12"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class13"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class14"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class15"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class16"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class17"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="第3 4节"
+            android:textColor="#333399" />
+
+        <TextView
+            android:id="@+id/class21"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class22"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class23"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class24"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class25"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class26"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class27"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="第5 6节"
+            android:textColor="#333399" />
+
+        <TextView
+            android:id="@+id/class31"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class32"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class33"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class34"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class35"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class36"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class37"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="第7 8节"
+            android:textColor="#333399" />
+
+        <TextView
+            android:id="@+id/class41"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class42"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class43"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class44"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class45"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class46"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class47"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="第9 10 11节"
+            android:textColor="#333399" />
+
+        <TextView
+            android:id="@+id/class51"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class52"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class53"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class54"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class55"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class56"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/class57"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/classback"
+            android:padding="3dip"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</LinearLayout>

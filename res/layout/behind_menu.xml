@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical" >
+
+            <com.ahutjw.widget.MyScrollview
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dip" >
+
+                        <ImageView
+                            android:id="@+id/menupersoni"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:padding="1dip"
+                            android:src="@drawable/person1" />
+
+                        <TextView
+                            android:id="@+id/menupersont"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="个人信息"
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#CCCCCC" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dip" >
+
+                        <ImageView
+                            android:id="@+id/menunewsi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:padding="1dip"
+                            android:src="@drawable/newspng" />
+
+                        <TextView
+                            android:id="@+id/menunewst"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="通知公告"
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#CCCCCC" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dip" >
+
+                        <ImageView
+                            android:id="@+id/menuclsri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:padding="1dip"
+                            android:src="@drawable/scorepng" />
+
+                        <TextView
+                            android:id="@+id/menuclsrt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="教室查询"
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#CCCCCC" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dip" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:padding="1dip"
+                            android:src="@drawable/mynowlocation" />
+
+                        <TextView
+                            android:id="@+id/mylocation"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="我的位置"
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#CCCCCC" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dip" >
+
+                        <ImageView
+                            android:id="@+id/menucleni"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:padding="0dip"
+                            android:src="@drawable/calendarpng" />
+
+                        <TextView
+                            android:id="@+id/menuclent"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="校历  "
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#CCCCCC" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="14dip" >
+
+                        <ImageView
+                            android:id="@+id/menuabouti"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:padding="2dip"
+                            android:src="@drawable/aboutpng" />
+
+                        <TextView
+                            android:id="@+id/menuaboutt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="关于    "
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.ahutjw.widget.MyScrollview>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="14dip" >
+
+                <ImageView
+                    android:id="@+id/exiti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:padding="1dip"
+                    android:src="@drawable/outloginpng" />
+
+                <Button
+                    android:id="@+id/exitt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/exitbutton"
+                    android:text="退    出 "
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

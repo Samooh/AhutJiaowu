@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="提示"
+        android:textSize="17dip"
+        android:textStyle="bold" 
+        android:textColor="#000000"
+        />
+	  <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/dialog_line" />
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="30dip"
+        android:paddingTop="20dip"
+        android:text="您尚未登录，是否马上登录？"
+        android:textColor="#000000"
+        android:textSize="19dip" />
+
+  <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/dialog_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btn_Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/unipay_drawable_inputbg"
+            android:text="取消"
+            android:textColor="#1C86EE"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/unipay_drawable_inputbg"
+            android:text="确定"
+            android:textColor="#1C86EE"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

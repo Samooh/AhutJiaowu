@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <!-- header -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/upbackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_details_gohome" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="35dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ttextview_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/right_btn"
+            android:layout_width="44dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#CCCCCC" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="性别" >
+
+        <RadioButton
+            android:id="@+id/radioGood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="优"
+            android:textColor="#00CCFF"
+            android:textSize="11pt" >
+        </RadioButton>
+
+        <EditText
+            android:id="@+id/good"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:hint="请评价课程分数(90-95)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="7pt"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radioJustSoSo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="良"
+            android:textColor="#00CCFF"
+            android:textSize="11pt" >
+        </RadioButton>
+
+        <EditText
+            android:id="@+id/justsoso"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:hint="请评价课程分数(80-89)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="7pt"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="中"
+            android:textColor="#00CCFF"
+            android:textSize="11pt" >
+        </RadioButton>
+
+        <EditText
+            android:id="@+id/medium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:hint="请评价课程分数(70-79)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="7pt"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radioPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="及格"
+            android:textColor="#00CCFF"
+            android:textSize="11pt" >
+        </RadioButton>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:hint="请评价课程分数(60-69)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="7pt"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/radioNotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="不及格"
+            android:textColor="#00CCFF"
+            android:textSize="11pt" >
+        </RadioButton>
+
+        <EditText
+            android:id="@+id/notPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:hint="请输入课程评价分数(50-59)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="7pt"
+            android:visibility="gone" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="您的意见（可以不填写）"
+            android:textColor="#00CCFF"
+            android:textSize="8pt" />
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:lines="3" />
+    </LinearLayout>
+
+</LinearLayout>

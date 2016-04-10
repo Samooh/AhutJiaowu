@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">移动教务</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 侧边栏按钮 -->
+    <string name="button_setting">设置</string>
+    <string name="button_feedback">反馈</string>
+    <string name="button_about">关于</string>
+    
+    
+    <string name="image_desc"></string>
+    <string name="label_update">更新于: </string>
+    <string name="label_last_time">1分钟前</string>
+    <string name="pull_down_for_refresh">下拉刷新</string>
+    <string name="release_for_refresh">松开刷新</string>
+    <string name="refreshing">正在刷新&#8230;</string>
+    <string name="pull_up_for_more">上拉更多</string>
+    <string name="release_for_more">松开加载</string>
+    <string name="loading">正在加载&#8230;</string>
+    <string name="click_for_more">点击加载更多</string>
+    <!-- 侧边栏菜单 -->
+    <string name="menuNotice">通知公告</string>
+    <string name="menuJudge">教学评价</string>
+    <string name="menuCoureInfo">课表信息</string>
+    <string name="menuExamInfo">考试信息</string>
+    <string name="menuScoreInfo">成绩查询</string>
+    <string name="menuWebclassInfo">网上选课</string>
+    <string name="menuxlInfo">校历</string>
+    <string name="menuclrmInfo">教室查询</string>
+
+    <!-- 用户反馈 -->
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_input_content">请输入您的反馈意见</string>
+    <string name="feedback_back">返回</string>
+
+    <!-- 登录 -->
+    <string name="user_cancel">取消</string>
+    <string name="user_remember">记住密码</string>
+    <string name="user_enter">立即登录</string>
+    <string name="user_user_empty">用户名不能为空!</string>
+    <string name="user_pwd_empty">密码不能为空!</string>
+    <string name="user_login_prompt">请先登录</string>
+    <string name="user_login_enter_key">请先输入密钥</string>
+
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh。。。</string>
+    <string name="pull_to_refresh_release_label">松开刷新。。。</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载。。。</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh。。。</string>
+    <!-- 上拉下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="press_again_exit">再按一次退出</string>
+
+    <string-array name="loginType">
+        <item>本科生</item>
+        <item>教师</item>
+    </string-array>
+
+    <!-- 学年 -->
+    <string-array name="scoreSearchXn">
+        <item>2012-2013</item>
+        <item>2011-2012</item>
+        <item>2010-2011</item>
+        <item>2009-2010</item>
+        <item>2008-2009</item>
+        <item>2007-2008</item>
+        <item>2006-2007</item>
+        <item>2005-2006</item>
+    </string-array>
+    <string-array name="scoreSearchXq">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="about_title">名称:移动教务助手\n版本:2.1.0\n版权:安徽工业大学教务处;\n计算机科学与技术学院\n应用研究所</string>
+
+</resources>
