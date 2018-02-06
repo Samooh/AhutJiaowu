@@ -1,5 +1,8 @@
 
-### Mobile educational system (Android version)
+### Aim
+Make educational affairs easier
+
+### Modules
 Six main functional modules: 
 - Announcement
 - Teaching Evaluation
