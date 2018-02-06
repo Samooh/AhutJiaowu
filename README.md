@@ -1,13 +1,26 @@
-AhutJiaowu
-==========
 
-  Mobile Education
-  Mobile educational system (Android version) currently has six main functional modules modules: 
-  1.Announcement;
-  2.Teaching Evaluation;
-  3.Timetable Information;
-  4.Exam Information;
-  5.Score Inquiry;
-  6.Online Courses.
-  Teachers can view announcement, schedule information and invigilator information by mobile educational app. 
-  Students can view announcement,online courses,teaching evaluation ,timetable information, examination arrangements and score inquiry.
+### Mobile educational system (Android version)
+Six main functional modules: 
+- Announcement
+- Teaching Evaluation
+- Timetable Information
+- Exam Information
+- Score Inquiry
+- Online Courses
+  
+### Functions for teachers
+
+- school announcement view 
+- course information view 
+- invigilator information view
+
+### Functions for students
+- course score inquiry
+- examination arrangements
+- school announcement view 
+- online courses selection 
+- teaching evaluation
+- timetable information view
+  
+  
+
