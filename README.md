@@ -23,4 +23,8 @@ Six main functional modules:
 - timetable information view
   
   
+### App screenshot
 
+<img src="https://github.com/ahutsunshine/AhutJiaowu/blob/master/screenshot/home.png" width="50%" height="50%" /><img src="https://github.com/ahutsunshine/AhutJiaowu/blob/master/screenshot/left.png" width="50%" height="50%" />
+
+<img src="https://github.com/ahutsunshine/AhutJiaowu/blob/master/screenshot/login.png" width="50%" height="50%" /><img src="https://github.com/ahutsunshine/AhutJiaowu/blob/master/screenshot/personal.png" width="50%" height="50%" />
